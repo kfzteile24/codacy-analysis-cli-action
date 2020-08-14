@@ -19,3 +19,6 @@ runs:
     - ${{ inputs.directory }}"
     - "--project-token"
     - "${{ inputs.project-token }}"
+    - "--upload"
+    - "--allow-network"
+    - "--verbose"
